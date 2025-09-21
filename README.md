@@ -2,7 +2,7 @@
 
 A comprehensive Java-based library management system designed for managing books, audiobooks, and e-magazines with robust error handling, extensibility, and clean architecture.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system follows object-oriented design principles with:
 
@@ -12,7 +12,7 @@ The system follows object-oriented design principles with:
 - **Manager Class**: `LibraryManager` handles operations and fine management
 - **Comprehensive Error Handling**: Input validation and state management
 
-## 📁 Class Structure
+## Class Structure
 
 ### Core Classes
 
@@ -43,25 +43,25 @@ The system follows object-oriented design principles with:
    - Search functionality by title, author, type
    - Statistics and reporting
 
-## 🚀 Key Features
+## Key Features
 
 ### Common Operations
-- ✅ **Borrowing**: Parse duration strings, validate inputs
-- ✅ **Returning**: State management and fine calculation
-- ✅ **Availability Checking**: Real-time status tracking
-- ✅ **Fine Management**: ₹10/day rate, collection tracking
+- **Borrowing**: Parse duration strings, validate inputs
+- **Returning**: State management and fine calculation
+- **Availability Checking**: Real-time status tracking
+- **Fine Management**: ₹10/day rate, collection tracking
 
 ### Specialized Behaviors
-- ✅ **Books**: `getPageCount()`, reading time estimation
-- ✅ **Audiobooks**: `Playable` interface implementation
-- ✅ **E-Magazines**: `archiveIssue()` functionality
+- **Books**: `getPageCount()`, reading time estimation
+- **Audiobooks**: `Playable` interface implementation
+- **E-Magazines**: `archiveIssue()` functionality
 
 ### Data Handling
-- ✅ **Duration Parsing**: String to LocalDate conversion
-- ✅ **Item IDs**: Integer-based unique identifiers
-- ✅ **Error Handling**: Comprehensive validation and exception handling
+- **Duration Parsing**: String to LocalDate conversion
+- **Item IDs**: Integer-based unique identifiers
+- **Error Handling**: Comprehensive validation and exception handling
 
-## 🎯 Design Principles Demonstrated
+## Design Principles Demonstrated
 
 ### 1. Clean, Reusable Design
 - Abstract base class eliminates code duplication
@@ -79,7 +79,7 @@ The system follows object-oriented design principles with:
 - State validation for operations
 - Null safety and boundary checking
 
-## 📋 Usage Examples
+## Usage Examples
 
 ### Creating Items
 ```java
@@ -135,7 +135,7 @@ int articleCount = magazine.getArticleCount();
 boolean isRecent = magazine.isRecent();
 ```
 
-## 🧪 Running the Demo
+## Running the Demo
 
 Compile and run the demo to see all features in action:
 
@@ -153,7 +153,7 @@ The demo showcases:
 - Error handling
 - Library statistics
 
-## 🔧 Error Handling Features
+## Error Handling Features
 
 - **Input Validation**: All constructors validate inputs
 - **State Validation**: Operations check item availability
@@ -161,7 +161,7 @@ The demo showcases:
 - **Boundary Checking**: Prevents invalid operations
 - **Null Safety**: Handles null and empty inputs gracefully
 
-## 📊 Extensibility Examples
+## Extensibility Examples
 
 ### Adding New Item Types
 ```java
@@ -194,7 +194,7 @@ public interface Downloadable {
 }
 ```
 
-## 🎉 Conclusion
+## Conclusion
 
 This LibraNet implementation demonstrates:
 - **Clean Architecture**: Well-structured, maintainable code
